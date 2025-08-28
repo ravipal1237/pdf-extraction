@@ -18,3 +18,13 @@ INPUT_DIR=./input
 OUTPUT_DIR=./output
 CHROMA_DIR=./output/chroma_db
 LOG_FILE=./logs/pipeline.log
+
+-----
+
+* OCR → PaddleOCR + pdfplumber
+* LLM Reasoning → Groq API (Mixtral / LLaMA-3)
+* RAG → ChromaDB + Sentence-Transformers
+* Framework → LangGraph
+* Export → pandas + openpyxl
+* Logging → Python logging
+* Input/Output → Local folder watcher (optional), Excel in /output
