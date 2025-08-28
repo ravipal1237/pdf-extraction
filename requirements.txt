@@ -1,0 +1,14 @@
+pdfplumber==0.7.6
+sentence-transformers==2.2.2
+chromadb==0.4.9
+openpyxl==3.1.2
+pandas==2.2.3
+requests==2.32.4
+python-dotenv==1.0.1
+pydantic==1.10.12
+watchdog==3.0.0
+loguru==0.7.0
+pdf2image==1.16.3
+fastapi==0.95.2
+uvicorn==0.22.0
+pypika==0.48.9

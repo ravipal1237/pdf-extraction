@@ -1,0 +1,9 @@
+input_dir: "./input"
+output_dir: "./output"
+log_file: "./logs/app.log"
+
+groq_api_key: "YOUR_GROQ_API_KEY"
+groq_model: "llama3-8b-8192"
+
+embeddings_model: "sentence-transformers/all-MiniLM-L6-v2"
+vector_store: "./output/chroma_db"
